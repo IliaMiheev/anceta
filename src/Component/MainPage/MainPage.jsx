@@ -1,13 +1,16 @@
 import React, { useEffect } from "react";
-import { ToastContainer, toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
+import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css'
+
 export default function MainPage({ user }) {
     const navigate = useNavigate();
+
     useEffect(() => {
         if (!user.name)
             navigate('/reg')
-    })
+    },[])
+
     return (
         <>
             <h1 className="two">Главная страница</h1>
