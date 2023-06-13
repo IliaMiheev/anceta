@@ -20,7 +20,7 @@ function App (){
                     <RegPage setUser={setUser}/>
                 }
                 />
-                <Route path="/projects"
+                {/* <Route path="/projects"
                 element={
                     <Projects/>
                 }
@@ -29,7 +29,7 @@ function App (){
                 element={
                     <About/>
                 }
-                />
+                /> */}
             </Routes>
         </div>
     )
