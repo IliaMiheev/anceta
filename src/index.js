@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom/client';
-import App from './Hook';
+import App from './UserCard';
 import { BrowserRouter } from 'react-router-dom';
 
 const root = document.getElementById('root');
